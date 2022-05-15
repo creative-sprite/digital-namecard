@@ -179,6 +179,10 @@ img.profile-pic {
 	color: white;
 }
 
+.fa-solid {
+	color:#F3733D;
+}
+
 @media screen and (max-width: 600px) {
   img.profile-pic {
     height: 60%;
