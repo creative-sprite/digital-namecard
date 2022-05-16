@@ -5,7 +5,7 @@ N:Smith;Francesca;;;
 FN: Francesca  Smith 
 ORG:Bright Hygiene;
 TITLE:Managing Director
-PHOTO;TYPE=JPG;VALUE=URI:user.jpg
+PHOTO;TYPE=JPEG;VALUE=URI:https://upload.wikimedia.org/wikipedia/commons/8/87/My_Dog_%2861220578%29.jpeg
 EMAIL;type=INTERNET;type=WORK;type=pref:fran@brighthygiene.co.uk
 TEL;type=WORK;type=VOICE:+441279444821
 TEL;type=CELL;type=VOICE:+447903939732
