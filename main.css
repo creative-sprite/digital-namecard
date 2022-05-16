@@ -30,14 +30,21 @@ img {
     height: auto;
     width: auto;
     object-fit: contain;
-color: #F3733D;
 }
 
 img.profile-pic {
-	height: 30%;
-	width: 30%;
+	height: 50%;
+	width: 50%;
 	object-fit: cover;
+}
+
+.prof {
 	border-radius: 50%;
+}
+
+.logo {
+	outline: 3px solid #F3733D;
+  	outline-offset: -1px;
 }
 
 .container {
@@ -67,6 +74,7 @@ img.profile-pic {
 	max-width: 100%;
 	max-height: 100%;
 	overflow: auto;
+	color: #F3733D;
 }
 
 .col.is-1 {
@@ -91,11 +99,12 @@ img.profile-pic {
 
 .col.is-5 {
 	flex: none;
-	width: 50%;
+	width: 40%;
 }
 
 .col.is-6 {
 	flex: none;
+	text-align: center;
 	width: 60%;
 }
 
@@ -136,7 +145,7 @@ img.profile-pic {
 }
 
 .bg-color-grey {
-	background-color: #F2F2F2;
+	background-color: /*#F2F2F2*/ #F3733D;
 }
 
 .bg-color-white {
@@ -147,21 +156,21 @@ img.profile-pic {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: #333333;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .text-title-company {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #333333;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .text-detail {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #575757;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .bottom {
@@ -170,17 +179,20 @@ img.profile-pic {
 
 .button {
 	background-color: #F3733D;
-	height: 60px;
-	width: 60px;
-	border-radius: 50%;
+	height: 100px;
+	width: 100px;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 48px;
 	color: white;
+	border-radius: 50%;
+	margin: 0 auto;
 }
 
-.fa-solid {
-	color:#F3733D;
+.button-1 {
+	color: white;
+	font-size: 35px;
+	padding: 25px 0 0 5px;
 }
 
 @media screen and (max-width: 600px) {
